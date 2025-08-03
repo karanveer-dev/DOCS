@@ -1,0 +1,168 @@
+{
+  "widget": {
+    "type": "latest",
+    "sizeX": 8.5,
+    "sizeY": 6,
+    "config": {
+      "datasources": [
+        {
+          "type": "entity",
+          "name": null,
+          "entityAliasId": "0afc09bb-2cfc-03c9-915b-2e89b2a408fb",
+          "filterId": null,
+          "dataKeys": [
+            {
+              "name": "latitude",
+              "type": "entityField",
+              "label": "Latitude",
+              "color": "#2196f3",
+              "settings": {},
+              "_hash": 0.89281436515949
+            },
+            {
+              "name": "longitude", 
+              "type": "entityField",
+              "label": "Longitude",
+              "color": "#2196f3",
+              "settings": {},
+              "_hash": 0.89281436515950
+            }
+          ]
+        }
+        ],
+      "timewindow": {
+        "displayValue": "",
+        "selectedTab": 0,
+        "realtime": {
+          "realtimeType": 1,
+          "interval": 1000,
+          "timewindowMs": 60000,
+          "quickInterval": "CURRENT_DAY",
+          "hideInterval": false,
+          "hideLastInterval": false,
+          "hideQuickInterval": false
+        },
+        "history": {
+          "historyType": 0,
+          "interval": 1000,
+          "timewindowMs": 60000,
+          "fixedTimewindow": {
+            "startTimeMs": 1728309542275,
+            "endTimeMs": 1728395942275
+          },
+          "quickInterval": "CURRENT_DAY",
+          "hideInterval": false,
+          "hideLastInterval": false,
+          "hideFixedInterval": false,
+          "hideQuickInterval": false
+        },
+        "aggregation": {
+          "type": "AVG",
+          "limit": 25000
+        }
+      },
+      "showTitle": true,
+      "backgroundColor": "#000000",
+      "color": "rgba(255,255,255,0.79)",
+      "padding": "8px",
+      "settings": {
+        "fitMapBounds": true,
+        "latKeyName": "latitude",
+        "lngKeyName": "longitude",
+        "showLabel": true,
+        "label": "${entityName}",
+        "tooltipPattern": "<b>${entityName}</b><br/><br/><b>Latitude:</b> ${latitude:7}<br/><b>Longitude:</b> ${longitude:7}<br/><b>Temperature:</b> ${temperature} °C<br/><small>See advanced settings for details</small>",
+        "markerImageSize": 34,
+        "useColorFunction": true,
+        "markerImages": [
+          "tb-image;/api/images/system/map_marker_image_0.png",
+          "tb-image;/api/images/system/map_marker_image_1.png",
+          "tb-image;/api/images/system/map_marker_image_2.png",
+          "tb-image;/api/images/system/map_marker_image_3.png"
+        ],
+        "useMarkerImageFunction": true,
+        "colorFunction": "var type = dsData[dsIndex]['Type'];\nif (type == 'colorpin') {\n\tvar temperature = dsData[dsIndex]['temperature'];\n\tif (typeof temperature !== undefined) {\n\t    var percent = (temperature + 60)/120 * 100;\n\t    return tinycolor.mix('blue', 'red', amount = percent).toHexString();\n\t}\n\treturn 'blue';\n}\n",
+        "markerImageFunction": "var type = dsData[dsIndex]['Type'];\nif (type == 'thermometer') {\n\tvar res = {\n\t    url: images[0],\n\t    size: 40\n\t}\n\tvar temperature = dsData[dsIndex]['temperature'];\n\tif (typeof temperature !== undefined) {\n\t    var percent = (temperature + 60)/120;\n\t    var index = Math.min(3, Math.floor(4 * percent));\n\t    res.url = images[index];\n\t}\n\treturn res;\n}",
+        "color": "#fe7569",
+        "mapProvider": "OpenStreetMap.Positron",
+        "showTooltip": true,
+        "autocloseTooltip": true,
+        "tooltipFunction": "var deviceType = dsData[dsIndex]['Type'];\r\nif (typeof deviceType !== undefined) {\r\n    if (deviceType == \"energy meter\") {\r\n        return '<b>${entityName}</b><br/><b>Energy:</b> ${energy:2} kWt<br/>';\r\n    } else if (deviceType == \"thermometer\") {\r\n        return '<b>${entityName}</b><br/><b>Temperature:</b> ${temperature:2} °C<br/>';\r\n    }\r\n}",
+        "labelFunction": "var deviceType = dsData[dsIndex]['Type'];\r\nif (typeof deviceType !== undefined) {\r\n    if (deviceType == \"energy meter\") {\r\n        return '<span style=\"color:orange;\">${entityName}, ${energy:2} kWt</span>';\r\n    } else if (deviceType == \"thermometer\") {\r\n        return '<span style=\"color:blue;\">${entityName}, ${temperature:2} °C</span>';\r\n    }\r\n}",
+        "provider": "openstreet-map",
+        "defaultCenterPosition": "0,0",
+        "showTooltipAction": "click",
+        "mapPageSize": 16384,
+        "useTooltipFunction": false,
+        "useCustomProvider": false,
+        "useDefaultCenterPosition": false,
+        "draggableMarker": false,
+        "disableScrollZooming": false,
+        "disableZoomControl": false,
+        "useLabelFunction": false,
+        "tooltipOffsetX": 0,
+        "tooltipOffsetY": -1,
+        "markerOffsetX": 0.5,
+        "markerOffsetY": 1,
+        "showPolygon": false,
+        "showCircle": false,
+        "useClusterMarkers": false,
+        "polygonKeyName": "perimeter",
+        "editablePolygon": false,
+        "showPolygonLabel": false,
+        "usePolygonColorFunction": false,
+        "polygonOpacity": 0.2,
+        "usePolygonStrokeColorFunction": false,
+        "polygonStrokeOpacity": 1,
+        "polygonStrokeWeight": 3,
+        "showPolygonTooltip": false
+      },
+      "title": "Plant Location",
+      "dropShadow": true,
+      "enableFullscreen": false,
+      "titleStyle": {
+        "fontSize": "16px",
+        "fontWeight": 400
+      },
+      "useDashboardTimewindow": true,
+      "showLegend": false,
+      "widgetStyle": {
+        "border-radius": "10px",
+        "border": "2px solid grey"
+      },
+      "actions": {},
+      "showTitleIcon": false,
+      "titleTooltip": "",
+      "widgetCss": "",
+      "noDataDisplayMessage": ""
+    },
+    "row": 0,
+    "col": 0,
+    "id": "82d5fd3a-59ab-55cf-ef23-0f48893eac64",
+    "typeFullFqn": "system.maps_v2.openstreetmap"
+  },
+  "aliasesInfo": {
+    "datasourceAliases": {
+      "0": {
+        "alias": "Plants",
+        "filter": {
+          "type": "entityList",
+          "resolveMultiple": true,
+          "entityType": "ASSET",
+          "entityList": [
+            "6ebfa140-d24a-11ef-91cc-f57fd73c5b45"
+          ]
+        }
+      }
+    },
+    "targetDeviceAlias": null
+  },
+  "filtersInfo": {
+    "datasourceFilters": {}
+  },
+  "originalSize": {
+    "sizeX": 12,
+    "sizeY": 9
+  },
+  "originalColumns": 24
+}

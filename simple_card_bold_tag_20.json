@@ -1,0 +1,157 @@
+{
+  "widget": {
+    "type": "latest",
+    "sizeX": 5,
+    "sizeY": 3,
+    "config": {
+      "datasources": [
+        {
+          "type": "entity",
+          "name": null,
+          "entityAliasId": "1ffc4788-d507-1423-c39f-cf8e69881876",
+          "filterId": null,
+          "dataKeys": [
+            {
+              "name": "tag_20",
+              "type": "timeseries",
+              "label": " AUTO UP TORQUE-SET",
+              "color": "#2196f3",
+              "settings": {},
+              "_hash": 0.5693041947402686,
+              "units": "Nm",
+              "decimals": 2,
+              "funcBody": null,
+              "usePostProcessing": true,
+              "postFuncBody": "return parseFloat(value);",
+              "aggregationType": "NONE"
+            }
+          ],
+          "alarmFilterConfig": {
+            "statusList": [
+              "ACTIVE"
+            ]
+          }
+        }
+      ],
+      "timewindow": {
+        "displayValue": "",
+        "selectedTab": 0,
+        "realtime": {
+          "realtimeType": 1,
+          "interval": 1000,
+          "timewindowMs": 60000,
+          "quickInterval": "CURRENT_DAY",
+          "hideInterval": false,
+          "hideLastInterval": false,
+          "hideQuickInterval": false
+        },
+        "history": {
+          "historyType": 0,
+          "interval": 1000,
+          "timewindowMs": 60000,
+          "fixedTimewindow": {
+            "startTimeMs": 1728309542276,
+            "endTimeMs": 1728395942276
+          },
+          "quickInterval": "CURRENT_DAY",
+          "hideInterval": false,
+          "hideLastInterval": false,
+          "hideFixedInterval": false,
+          "hideQuickInterval": false
+        },
+        "aggregation": {
+          "type": "AVG",
+          "limit": 25000
+        }
+      },
+      "showTitle": true,
+      "backgroundColor": "#000000",
+      "color": "rgba(255,255,255,0.72)",
+      "padding": "16px",
+      "settings": {
+        "labelPosition": "top"
+      },
+      "title": "Tag 20",
+      "dropShadow": true,
+      "enableFullscreen": false,
+      "titleStyle": {
+        "fontSize": "24px",
+        "fontWeight": "bold",
+        "padding": "5px 10px 5px 10px",
+        "border-radius": 5,
+        "opacity": 0.75,
+        "color": "93B1A6"
+      },
+      "units": "",
+      "decimals": 0,
+      "useDashboardTimewindow": true,
+      "showLegend": false,
+      "widgetStyle": {
+        "border": "2px solid grey",
+        "border-radius": "10px",
+        "padding": "10px",
+        "fontSize": "25px",
+        "fontWeight": "100px",
+        "cursor": "pointer"
+      },
+      "actions": {
+        "headerButton": [
+          {
+            "name": "writeTag20",
+            "icon": "edit",
+            "useShowWidgetActionFunction": null,
+            "showWidgetActionFunction": "return true;",
+            "type": "openDashboardState",
+            "targetDashboardStateId": "writetag20",
+            "setEntityId": true,
+            "stateEntityParamName": null,
+            "openRightLayout": false,
+            "popoverPreferredPlacement": "top",
+            "popoverHideOnClickOutside": true,
+            "popoverHideDashboardToolbar": true,
+            "popoverWidth": "30vw",
+            "popoverHeight": "40vh",
+            "popoverStyle": {},
+            "openInSeparateDialog": false,
+            "openInPopover": true,
+            "id": "3671565e-9c68-ed6e-f9b6-0725a07753aa"
+          }
+        ]
+      },
+      "widgetCss": "",
+      "noDataDisplayMessage": "",
+      "showTitleIcon": false,
+      "titleTooltip": "",
+      "displayTimewindow": true,
+      "pageSize": 1024
+    },
+    "row": 0,
+    "col": 0,
+    "id": "2aee359f-7123-243c-b919-ea1d2f5b2a16",
+    "typeFullFqn": "tenant.custom_button_card.simple_card_bold"
+  },
+  "aliasesInfo": {
+    "datasourceAliases": {
+      "0": {
+        "alias": "Current Devices",
+        "filter": {
+          "type": "singleEntity",
+          "resolveMultiple": false,
+          "singleEntity": {
+            "entityType": "DEVICE",
+            "id": "fbddc920-d63d-11ef-9af9-75c907b1f360"
+          }
+        }
+      }
+    },
+    "targetDeviceAlias": null
+  },
+  "filtersInfo": {
+    "datasourceFilters": {}
+  },
+  "originalSize": {
+    "sizeX": 8,
+    "sizeY": 4
+  },
+  "originalColumns": 48
+}

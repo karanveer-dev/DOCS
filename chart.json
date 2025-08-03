@@ -1,0 +1,973 @@
+{
+  "widget": {
+    "type": "timeseries",
+    "sizeX": 8,
+    "sizeY": 5,
+    "config": {
+      "datasources": [
+        {
+          "type": "entity",
+          "name": null,
+          "entityAliasId": "1ffc4788-d507-1423-c39f-cf8e69881876",
+          "filterId": null,
+          "dataKeys": [
+            {
+              "name": "tag_1",
+              "type": "timeseries",
+              "label": "Tag 1",
+              "color": "#F32121",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.6854563890029259,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_2",
+              "type": "timeseries",
+              "label": "Tag 2",
+              "color": "#4caf50",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.46976418054215996,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_3",
+              "type": "timeseries",
+              "label": "Tag 3",
+              "color": "#f44336",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.9808116164903502,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_4",
+              "type": "timeseries",
+              "label": "Tag 4",
+              "color": "#ffc107",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.3443172999857562,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_5",
+              "type": "timeseries",
+              "label": "Tag 5",
+              "color": "#607d8b",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.6160747968217433,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_6",
+              "type": "timeseries",
+              "label": "Tag 6",
+              "color": "#9c27b0",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.9980651619360428,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_7",
+              "type": "timeseries",
+              "label": "Tag 7",
+              "color": "#8bc34a",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.7810139235927473,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_8",
+              "type": "timeseries",
+              "label": "Tag 8",
+              "color": "#3f51b5",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.9983237720508384,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_9",
+              "type": "timeseries",
+              "label": "Tag 9",
+              "color": "#e91e63",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.948243354743094,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_10",
+              "type": "timeseries",
+              "label": "Tag 10",
+              "color": "#ffeb3b",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.22407820264743972,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_11",
+              "type": "timeseries",
+              "label": "Tag 11",
+              "color": "#03a9f4",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.7281839186162304,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_12",
+              "type": "timeseries",
+              "label": "Tag 12",
+              "color": "#ff9800",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.9400969090002309,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_13",
+              "type": "timeseries",
+              "label": "Tag 13",
+              "color": "#673ab7",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.4442215242758547,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_14",
+              "type": "timeseries",
+              "label": "Tag 14",
+              "color": "#cddc39",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.39191757388156945,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_15",
+              "type": "timeseries",
+              "label": "Tag 15",
+              "color": "#009688",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.9929494764033997,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_16",
+              "type": "timeseries",
+              "label": "Tag 16",
+              "color": "#795548",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.2981488510093635,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_17",
+              "type": "timeseries",
+              "label": "Tag 17",
+              "color": "#00bcd4",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.5493130977211331,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_18",
+              "type": "timeseries",
+              "label": "Tag 18",
+              "color": "#ff5722",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.8530868416113835,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_19",
+              "type": "timeseries",
+              "label": "Tag 19",
+              "color": "#9e9e9e",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.9398351490472996,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            },
+            {
+              "name": "tag_20",
+              "type": "timeseries",
+              "label": "Tag 20",
+              "color": "#2962ff",
+              "settings": {
+                "excludeFromStacking": false,
+                "hideDataByDefault": false,
+                "disableDataHiding": false,
+                "removeFromLegend": false,
+                "showLines": true,
+                "fillLines": false,
+                "showPoints": false,
+                "showPointShape": "circle",
+                "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                "showPointsLineWidth": 5,
+                "showPointsRadius": 3,
+                "tooltipValueFormatter": "",
+                "showSeparateAxis": false,
+                "axisTitle": "",
+                "axisPosition": "left",
+                "axisTicksFormatter": "",
+                "thresholds": [
+                  {
+                    "thresholdValueSource": "predefinedValue"
+                  }
+                ],
+                "comparisonSettings": {
+                  "showValuesForComparison": true,
+                  "comparisonValuesLabel": "",
+                  "color": ""
+                }
+              },
+              "_hash": 0.3009822852761128,
+              "aggregationType": null,
+              "units": null,
+              "decimals": null,
+              "funcBody": null,
+              "usePostProcessing": null,
+              "postFuncBody": null
+            }
+          ],
+          "alarmFilterConfig": {
+            "statusList": [
+              "ACTIVE"
+            ]
+          }
+        }
+      ],
+      "timewindow": {
+        "hideAggregation": false,
+        "hideAggInterval": false,
+        "hideTimezone": false,
+        "selectedTab": 0,
+        "realtime": {
+          "realtimeType": 0,
+          "timewindowMs": 2592000000,
+          "quickInterval": "CURRENT_DAY",
+          "interval": 7200000
+        },
+        "aggregation": {
+          "type": "AVG",
+          "limit": 25000
+        },
+        "timezone": null
+      },
+      "showTitle": false,
+      "backgroundColor": "#000000",
+      "color": "rgba(255,255,255,0.76)",
+      "padding": "8px",
+      "settings": {
+        "shadowSize": 4,
+        "fontColor": "#545454",
+        "fontSize": 10,
+        "xaxis": {
+          "showLabels": true,
+          "color": "#545454"
+        },
+        "yaxis": {
+          "showLabels": true,
+          "color": "#545454",
+          "tickDecimals": 0
+        },
+        "grid": {
+          "color": "#545454",
+          "tickColor": "#DDDDDD",
+          "verticalLines": true,
+          "horizontalLines": true,
+          "outlineWidth": 1
+        },
+        "stack": false,
+        "tooltipIndividual": false,
+        "smoothLines": false,
+        "tooltipCumulative": false,
+        "hideZeros": false,
+        "showTooltip": true,
+        "comparisonEnabled": false,
+        "timeForComparison": "previousInterval",
+        "xaxisSecond": {
+          "axisPosition": "top",
+          "showLabels": true
+        },
+        "customLegendEnabled": false,
+        "showLegend": true,
+        "legendConfig": {
+          "direction": "row",
+          "position": "bottom",
+          "sortDataKeys": false,
+          "showMin": false,
+          "showMax": false,
+          "showAvg": true,
+          "showTotal": false
+        }
+      },
+      "title": "New Timeseries Line Chart",
+      "dropShadow": true,
+      "enableFullscreen": true,
+      "titleStyle": {
+        "fontSize": "16px",
+        "fontWeight": 400
+      },
+      "useDashboardTimewindow": false,
+      "showTitleIcon": false,
+      "titleTooltip": "",
+      "widgetStyle": {
+        "border": "2px solid grey",
+        "border-radius": "10px"
+      },
+      "widgetCss": "",
+      "noDataDisplayMessage": "",
+      "displayTimewindow": true,
+      "pageSize": 1024,
+      "actions": {
+        "headerButton": [
+          {
+            "name": "To Header",
+            "icon": "pie_chart",
+            "useShowWidgetActionFunction": false,
+            "showWidgetActionFunction": "return true;",
+            "type": "updateDashboardState",
+            "targetDashboardStateId": "dashboard_main",
+            "setEntityId": true,
+            "stateEntityParamName": null,
+            "openRightLayout": false,
+            "openInSeparateDialog": false,
+            "openInPopover": false,
+            "id": "96387e72-d153-539f-47dc-849edbb2c03a"
+          }
+        ]
+      }
+    },
+    "row": 0,
+    "col": 0,
+    "id": "cac72b65-8452-d3ac-ffae-4a997eb848f3",
+    "typeFullFqn": "system.charts.basic_timeseries"
+  },
+  "aliasesInfo": {
+    "datasourceAliases": {
+      "0": {
+        "alias": "Current Devices",
+        "filter": {
+          "type": "entityList",
+          "resolveMultiple": true,
+          "entityType": "DEVICE",
+          "entityList": [
+            "5c0e2b20-d24a-11ef-91cc-f57fd73c5b45"
+          ]
+        }
+      }
+    },
+    "targetDeviceAlias": null
+  },
+  "filtersInfo": {
+    "datasourceFilters": {}
+  },
+  "originalSize": {
+    "sizeX": 24,
+    "sizeY": 12
+  },
+  "originalColumns": 48
+}
